@@ -1,1 +1,1 @@
-Emoji Fighter JavaScript
+Emoji Fighter JavaScript Selector
