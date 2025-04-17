@@ -1,10 +1,13 @@
+:root{
+    --Primary-Color: #e98a1d;
+}
 body{
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     height: 100vh;
-    color: #e98a1d;
+    color: var(--Primary-Color);
 }
 
 h1{
@@ -20,4 +23,20 @@ h1{
     padding: 30px 0;
     font-size: 50px;
     margin: 0;
+}
+
+#pick-fighters{
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--Primary-Color);
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#pick-fighters:hover{
+    background-color: black;
 }
